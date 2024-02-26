@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+
+@layer components {
+    .vue-button {
+        background-color: transparent;
+        cursor: pointer;
+        @apply text-lg py-2 px-4 rounded-md border
+    }
+
+}

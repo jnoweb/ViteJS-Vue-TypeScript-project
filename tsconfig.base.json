@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "paths": {
+      "@vue-workspace/Vue-components": ["lib/Vue-components/src/index.ts"],
+      "@vue-workspace/Vue-components/*": ["lib/Vue-components/*"],
+      "@vue-workspace/mylib": ["mylib/src/index.ts"],
+      "@vue-workspace/translations": ["lib/translations/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

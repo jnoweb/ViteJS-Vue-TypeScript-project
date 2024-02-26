@@ -1,0 +1,16 @@
+{
+  "name": "vue-app",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "projects/Vue-app/src",
+  "targets": {
+    "targets": {
+      "build": {
+        "dependsOn": ["^build"]
+      },
+      "serve": {
+        "dependsOn": ["^build"]
+      }
+    }
+  }
+}

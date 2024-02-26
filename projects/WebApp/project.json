@@ -1,0 +1,26 @@
+{
+  "name": "WebApp",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "projects/WebApp/src",
+  "tags": [],
+  "targets": {
+    "build": {
+      "dependsOn": ["^build"]
+    },
+    "serve": {
+      "dependsOn": ["^build"]
+    },
+    "e2e": {
+      "executor": "@nx/cypress:cypress",
+      "options": {
+        "cypressConfig": "projects/WebApp/cypress.config.js",
+        "testingType": "e2e",
+        "devServerTarget": "WebApp:serve-static",
+        "port": 4300,
+        "browser": "chrome",
+        "headless": false
+      }
+    }
+  }
+}
