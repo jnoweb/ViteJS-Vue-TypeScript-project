@@ -17,13 +17,13 @@ function handleLocaleChange(I18n, setAttributes) {
 
   LocalePickerGroup1.addEventListener('localeChange', (locale: any) => {
     I18n.changeLanguage(...locale.detail);
-    console.log('localeChange', locale.detail);
+ 
     setAttributes(I18n, '#group1');
   });
 
   LocalePickerGroup2.addEventListener('localeChange', (locale: any) => {
     I18n.changeLanguage(...locale.detail);
-    console.log('localeChange', locale.detail);
+ 
     setAttributes(I18n, '#group2');
   });
 }

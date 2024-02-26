@@ -8,7 +8,6 @@ import "./styles.css";
 const app = createApp(App);
 
 app.use(I18NextVue, {
-  i18next: setupI18n(),
-  rerenderOn: ['languageChanged', 'loaded'],
+  i18next: setupI18n()
 });
 app.mount('#root');

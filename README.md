@@ -37,18 +37,29 @@ This project is structured to support a modular and scalable application develop
 
 - tsconfig.base.json
 
+
+## Install
+
+To intall, run this locally, clone the repo and run npm install
+
+> git clone git@github.com:jnoweb/ViteJS-Vue-TypeScript-project.git
+
+> cd into ViteJS-Vue-TypeScript-project
+
+> Run: npm install
+
 ## Usage for Vue app
 #### Testing
-To test run:
+To run test:
 > npx nx run vue-app:test
 #### Build
-To build run:
+To build, run:
 > npx nx run vue-app:build
 #### Serve
-To serve run:
+To serve, run:
 > npx nx run vue-app:serve
 
-## Usage for Web app
+## Usage for Web components app
 #### Testing
 To test run:
 > npx nx run WebApp:e2e
