@@ -40,7 +40,7 @@ This project is structured to support a modular and scalable application develop
 
 ## Install
 
-To intall, run this locally, clone the repo and run npm install
+To install, run this locally, clone the repo and run npm install
 
 > git clone git@github.com:jnoweb/ViteJS-Vue-TypeScript-project.git
 
